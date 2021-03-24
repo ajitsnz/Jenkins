@@ -7,6 +7,15 @@ namespace Jenkins
     {
 
         [Test]
+        public void Test5()
+        {
+            TestContext.WriteLine("Test Context : Test case Test5");
+            Console.WriteLine("Console : Test case Test5");
+            Assert.Fail();
+        }
+
+
+        [Test]
         public void Test1()
         {
             TestContext.WriteLine("Test Context : Test case Test1");
